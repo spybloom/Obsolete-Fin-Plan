@@ -10,16 +10,8 @@ Attribute Test_TD.VB_ProcData.VB_Invoke_Func = "E\n14"
 '   activates portfolio sheet, pastes values if the areas are the same size, changes money market if applicable,
 '   and reactivates exported TD file for totaling transactions and printing.
 '   Error cases have been added.
-'   Conditions for where the accounts end in the same three numbers have been added for:
-'       Debra Wirtz - IRA and Roth
-'       Jesse & Lisa Arcand - Jesse's Roth and Lisa's IRA
-'       Jeanette Beschta & Larry Moens - Jeanette's regular account and Larry's IRA
+'   Conditions for where the accounts end in the same three numbers have been added
 '   Conditions for different paste sizes have been added
-'
-' Hutter has separate portfolio pages for Robert and Alice, so pasting doesn't work with their accounts.
-' Matthew and Melanie Beauvais' portfolios are named "Matthew mm-yy"/"Melanie mm-yy" instead of "portfolio mm-yy"
-'
-' Need to keep an eye out for more clients with multiple accounts ending in the same numbers.
 '
 ' 11/21/17 Fixed transaction sorting so fees, VTRs, and both money in & out move as they should. Fee still doesn't
 '   move every time
